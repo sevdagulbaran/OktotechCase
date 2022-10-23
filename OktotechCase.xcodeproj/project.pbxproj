@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52917FB129057931003FA329 /* OktotechCaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52917FB029057931003FA329 /* OktotechCaseApp.swift */; };
+		52917FB329057931003FA329 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52917FB229057931003FA329 /* ContentView.swift */; };
+		52917FB529057932003FA329 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52917FB429057932003FA329 /* Assets.xcassets */; };
+		52917FB829057932003FA329 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52917FB729057932003FA329 /* Preview Assets.xcassets */; };
+		52917FC02905798F003FA329 /* SquareViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52917FBF2905798F003FA329 /* SquareViewModel.swift */; };
+		52917FC3290579B3003FA329 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52917FC2290579B3003FA329 /* ButtonView.swift */; };
+		52917FC5290579CB003FA329 /* SquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52917FC4290579CB003FA329 /* SquareView.swift */; };
+		52917FC929057A23003FA329 /* SataticColumns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52917FC829057A23003FA329 /* SataticColumns.swift */; };
+		52917FCB29057A48003FA329 /* UIScreen+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52917FCA29057A48003FA329 /* UIScreen+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		52917FAD29057931003FA329 /* OktotechCase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OktotechCase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52917FB029057931003FA329 /* OktotechCaseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OktotechCaseApp.swift; sourceTree = "<group>"; };
+		52917FB229057931003FA329 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		52917FB429057932003FA329 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52917FB729057932003FA329 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		52917FBF2905798F003FA329 /* SquareViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareViewModel.swift; sourceTree = "<group>"; };
+		52917FC2290579B3003FA329 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		52917FC4290579CB003FA329 /* SquareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareView.swift; sourceTree = "<group>"; };
+		52917FC829057A23003FA329 /* SataticColumns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SataticColumns.swift; sourceTree = "<group>"; };
+		52917FCA29057A48003FA329 /* UIScreen+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScreen+Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52917FAA29057931003FA329 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52917FA429057931003FA329 = {
+			isa = PBXGroup;
+			children = (
+				52917FAF29057931003FA329 /* OktotechCase */,
+				52917FAE29057931003FA329 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52917FAE29057931003FA329 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52917FAD29057931003FA329 /* OktotechCase.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52917FAF29057931003FA329 /* OktotechCase */ = {
+			isa = PBXGroup;
+			children = (
+				52917FC629057A00003FA329 /* Utilites */,
+				52917FBE29057958003FA329 /* Views */,
+				52917FB429057932003FA329 /* Assets.xcassets */,
+				52917FB629057932003FA329 /* Preview Content */,
+			);
+			path = OktotechCase;
+			sourceTree = "<group>";
+		};
+		52917FB629057932003FA329 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				52917FB729057932003FA329 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		52917FBE29057958003FA329 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				52917FC12905799D003FA329 /* Components */,
+				52917FB229057931003FA329 /* ContentView.swift */,
+				52917FB029057931003FA329 /* OktotechCaseApp.swift */,
+				52917FBF2905798F003FA329 /* SquareViewModel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		52917FC12905799D003FA329 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				52917FC2290579B3003FA329 /* ButtonView.swift */,
+				52917FC4290579CB003FA329 /* SquareView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		52917FC629057A00003FA329 /* Utilites */ = {
+			isa = PBXGroup;
+			children = (
+				52917FC729057A0F003FA329 /* Constants */,
+			);
+			path = Utilites;
+			sourceTree = "<group>";
+		};
+		52917FC729057A0F003FA329 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				52917FC829057A23003FA329 /* SataticColumns.swift */,
+				52917FCA29057A48003FA329 /* UIScreen+Extension.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52917FAC29057931003FA329 /* OktotechCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52917FBB29057932003FA329 /* Build configuration list for PBXNativeTarget "OktotechCase" */;
+			buildPhases = (
+				52917FA929057931003FA329 /* Sources */,
+				52917FAA29057931003FA329 /* Frameworks */,
+				52917FAB29057931003FA329 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OktotechCase;
+			productName = OktotechCase;
+			productReference = 52917FAD29057931003FA329 /* OktotechCase.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52917FA529057931003FA329 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					52917FAC29057931003FA329 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 52917FA829057931003FA329 /* Build configuration list for PBXProject "OktotechCase" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52917FA429057931003FA329;
+			productRefGroup = 52917FAE29057931003FA329 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52917FAC29057931003FA329 /* OktotechCase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52917FAB29057931003FA329 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52917FB829057932003FA329 /* Preview Assets.xcassets in Resources */,
+				52917FB529057932003FA329 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52917FA929057931003FA329 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52917FB329057931003FA329 /* ContentView.swift in Sources */,
+				52917FC929057A23003FA329 /* SataticColumns.swift in Sources */,
+				52917FC5290579CB003FA329 /* SquareView.swift in Sources */,
+				52917FB129057931003FA329 /* OktotechCaseApp.swift in Sources */,
+				52917FC02905798F003FA329 /* SquareViewModel.swift in Sources */,
+				52917FC3290579B3003FA329 /* ButtonView.swift in Sources */,
+				52917FCB29057A48003FA329 /* UIScreen+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		52917FB929057932003FA329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52917FBA29057932003FA329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52917FBC29057932003FA329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OktotechCase/Preview Content\"";
+				DEVELOPMENT_TEAM = 5JFGA44DG4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.OktotechCase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52917FBD29057932003FA329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OktotechCase/Preview Content\"";
+				DEVELOPMENT_TEAM = 5JFGA44DG4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.OktotechCase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52917FA829057931003FA329 /* Build configuration list for PBXProject "OktotechCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52917FB929057932003FA329 /* Debug */,
+				52917FBA29057932003FA329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52917FBB29057932003FA329 /* Build configuration list for PBXNativeTarget "OktotechCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52917FBC29057932003FA329 /* Debug */,
+				52917FBD29057932003FA329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52917FA529057931003FA329 /* Project object */;
+}
