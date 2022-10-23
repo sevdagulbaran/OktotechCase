@@ -61,6 +61,7 @@
 		52917FAF29057931003FA329 /* OktotechCase */ = {
 			isa = PBXGroup;
 			children = (
+				52917FB029057931003FA329 /* OktotechCaseApp.swift */,
 				52917FC629057A00003FA329 /* Utilites */,
 				52917FBE29057958003FA329 /* Views */,
 				52917FB429057932003FA329 /* Assets.xcassets */,
@@ -82,7 +83,6 @@
 			children = (
 				52917FC12905799D003FA329 /* Components */,
 				52917FB229057931003FA329 /* ContentView.swift */,
-				52917FB029057931003FA329 /* OktotechCaseApp.swift */,
 				52917FBF2905798F003FA329 /* SquareViewModel.swift */,
 			);
 			path = Views;

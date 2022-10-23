@@ -23,5 +23,6 @@ class SquareViwModel: NSObject, ObservableObject {
                 break
             }
         }
+        objectWillChange.send()
     }
 }
